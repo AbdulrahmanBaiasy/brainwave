@@ -9,7 +9,7 @@ const Section = ({
   children,
 }) => {
   return (
-    <div
+    <section
       id={id}
       className={`relative ${
         customPaddings ||
@@ -31,7 +31,7 @@ const Section = ({
           <SectionSvg crosssesOffset={crossesOffset} />
         </>
       )}
-    </div>
+    </section>
   );
 };
 
